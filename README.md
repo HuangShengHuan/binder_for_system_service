@@ -1,3 +1,8 @@
-# My Awesome Book
+## 进程间通讯的应用场景
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+ 一般情况下，我们比较使用Binder来进行与第三方进程间的通讯，更多的是用在与系统进程间的通讯。
+ 
+ 当我们启动一个Activity时，实际上就已经在进行与系统进程的通讯了，后面获取系统的各种服务（IMS、AMS、PMS等），都是在进行与系统进程间的通讯；
+ 
+ 
+ 
