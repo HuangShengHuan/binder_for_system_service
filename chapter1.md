@@ -14,7 +14,7 @@
  
  ```
 
- 当我们第一个请求获取ServiceManager时，会通过ServiceManagerNative 的asInterface创建对应的Proxy类：
+ 当我们第一次请求获取ServiceManager时，会通过ServiceManagerNative 的asInterface创建对应的Proxy类：
  ServiceManagerProxy;
  
     private static IServiceManager getIServiceManager() {
