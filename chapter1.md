@@ -29,6 +29,8 @@ private static IServiceManager getIServiceManager() {
 
 **注意：**此处的服务端Binder是通过BinderInternal.getContextObject\(\)进行获取，对应的Binder_可能是_从C++层获取到的；
 
+_在应用加载时，就会主动去加载BinderInternal这个类的对象！_
+
 ```
  /**
  * Return the global "context object" of the system.  This is usually
